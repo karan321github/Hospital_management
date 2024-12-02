@@ -14,6 +14,8 @@ namespace Assesment.Helper
             CreateMap<Employee, EmployeeDto>();
             CreateMap<Doctor, DoctorDto>();
             CreateMap<DoctorDto, Doctor>();
+            CreateMap<NurseDto, Nurse>();
+            CreateMap<Nurse, NurseDto>();
         }
     }
 }

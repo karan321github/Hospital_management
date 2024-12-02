@@ -69,7 +69,6 @@ namespace Assesment.Controllers
                 ModelState.AddModelError("", "Something went wrong");
                 return StatusCode(500, ModelState);
             }
-
             return Ok("Successfully created");
         }
 
